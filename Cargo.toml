@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-dm-verity"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS dm-verity component - filesystem"
+
+[lib]
+name = "dm_verity"
+path = "src/lib.rs"
